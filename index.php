@@ -33,28 +33,9 @@
    </head>
    <body>
       <div id="container">
-         <!--Header begins-->
-         <div id="headerContainer">
-            <a class="logo" href="index.html" title="Health Care Theme">E3</a>
-            <div class="clear"></div>
-         </div>
-         <!--Header ends-->
+         <?php include_once("header.php"); ?>
          <div id="contentContainer">
-            <!--Menu begins-->
-            <div id="menubarborder">
-               <div id="menubar">
-                  <ul class="sf-menu">
-                     <li><a href="index.html">Página Principal</a></li>
-                     <!--<li><a href="agregar_entidad.php">Agregar Paciente</a></li>-->
-                     <li><a href="#">Medico</a></li>
-                     <li><a href="#">Cita</a></li>
-                     <li><a href="#">Receta</a></li>
-                     <li><a href="#">Paciente</a></li>
-                     <li><a href="#">Examenes</a></li>
-                  </ul>
-               </div>
-            </div>
-            <!--Menu ends-->
+            <?php include_once("navbar.php"); ?>
             <!--Content begins-->
             <div id="content">
                <!--Middle part begins-->
@@ -62,18 +43,13 @@
                   <!--Welcome begins-->
                   <div id="middleTwoColumn">
                      <div class="h1title">
-                        <img src="images/icon_welcome.png" alt="Wel
-                           come" title="Welcome" />
-                        <h1>Bienvenidos</h1>
-                        <br>
-                        <br>
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-                        id est laborum. </span>
+                        <img src="images/icon_welcome.png" alt="Welcome" title="Welcome" />
+                        <h1>Bienvenido</h1>
+                        <span>Al sistema proyecto final del equipo 3</span>
                      </div>
                      <img src="images/welcome_img_01.jpg" alt="Welcome" class="br5 mb15" />
+                     <p>  </p>
+                     <p><strong>¡Mucha suerte!</strong></p>
                   </div>
                   <!--Welcome ends-->
                   <!--Sidebar begins-->
@@ -81,16 +57,14 @@
                      <!--Quick search #1 begins-->
                      <div class="sidebarBlock top">
                         <div class="h2title">
-                           <h2>Equipo #3</h2>
+                           <h2>Integrantes del Equipo</h2>
                         </div>
-                        <br>
-                        <p> Juan Luis Flores</p>
-                        <br>
-                        <p> Jorge Limón </p>
-                        <br>
-                        <p> Gerardo Galvez</p>
-                        <br>
-                        <p> Oscar González</p>
+                        <p>
+                          <br>Juan Luis Flores Garza <br> A01280767 <br>
+                          <br>Jorge Limón Cabrera <br> A01280734 <br>
+                          <br> Gerardo Galvez <br> A0 <br>
+                          <br> Oscar González <br> A0 <br>
+                        </p>
                         <br />
                      </div>
                      <!--Quick search #1 ends-->
@@ -101,18 +75,7 @@
                <div class="clear"></div>
             </div>
             <!--Content ends-->
-            <!--Footer begins-->
-            <div id="footerPart">
-               <div class="footerLeft">
-                  Equipo 3
-               </div>
-               <div class="footerRight">
-                  <ul>
-                     <li><a href="#" title="">Ayuda</a></li>
-                  </ul>
-               </div>
-            </div>
-            <!--Footer ends-->
+            <?php include_once("footer.php"); ?>
          </div>
          <!--ContentContainer ends-->
       </div>
